@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-lastest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/cache@v2
 
      # used to cache dependencies with a timeout
     - name: Get Date
